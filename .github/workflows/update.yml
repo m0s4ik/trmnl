@@ -58,7 +58,7 @@ jobs:
               pasti: risultati,
               lastUpdate: new Date().toISOString()
             };
-
+            console.debug('ok scrivo file');
             fs.writeFileSync('lista-pasti.json', JSON.stringify(out, null, 2));
           "
 
