@@ -19,20 +19,43 @@ jobs:
           
       - name: Generate dates JSON
         run: |
-          node -e '
-            const fs = require("fs");
-            const today = new Date();
-            const tomorrow = new Date(today);
-            tomorrow.setDate(tomorrow.getDate() + 1);
+          node -e "
+            const fs = require('fs');
+            // Legge il file pasti.json
+            let pasti = [];
+            try {
+              pasti = JSON.parse(fs.readFileSync('pasti.json', 'utf8'));
+              if (!Array.isArray(pasti)) throw new Error('Formato pasti.json non valido');
+            } catch (error) {
+              console.log('Warning: pasti.json non trovato o non valido');
+              pasti = [];
+            }
+            // Calcola gli indici e le date
+            function getIndexWeek(jsDay) {
+              return jsDay === 0 ? 6 : jsDay - 1;
+            }
             
-            const dates = {
-              today: today.toISOString().split("T")[0],
-              tomorrow: tomorrow.toISOString().split("T")[0],
+            const oggi = new Date();
+            const oggiIndex = getIndexWeek(oggi.getDay());
+            
+            const domani = new Date(oggi);
+            domani.setDate(oggi.getDate() + 1);
+            const domaniIndex = getIndexWeek(domani.getDay());
+            // Costruisce l'oggetto risposta
+            const pastiSelezionati = {
+              today: {
+                ...(pasti.find(p => p.indexWeek === oggiIndex) || {}),
+                date: oggi.toISOString().split('T')[0]
+              },
+              tomorrow: {
+                ...(pasti.find(p => p.indexWeek === domaniIndex) || {}),
+                date: domani.toISOString().split('T')[0]
+              },
               lastUpdate: new Date().toISOString()
             };
-            
-            fs.writeFileSync("dates.json", JSON.stringify(dates, null, 2));
-          '
+            fs.writeFileSync('combined-data.json', JSON.stringify(pastiSelezionati, null, 2));
+          "
+
           
       - name: Commit and push changes
         run: |
