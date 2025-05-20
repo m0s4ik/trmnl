@@ -1,18 +1,6 @@
 {
   "pasti": [
     {
-      "indexWeek": 1,
-      "pranzo": {
-        "base": "Riso integrale ai funghi",
-        "extra": "Zucchine grigliate"
-      },
-      "cena": {
-        "base": "Spaghetti al pomodoro",
-        "extra": "Mozzarella di bufala"
-      },
-      "date": "2025-05-20"
-    },
-    {
       "indexWeek": 2,
       "pranzo": {
         "base": "Caprese con burrata",
@@ -22,8 +10,20 @@
         "base": "Salmone al forno",
         "extra": "Verdure al vapore"
       },
+      "date": "2025-05-20"
+    },
+    {
+      "indexWeek": 3,
+      "pranzo": {
+        "base": "Tagliere di formaggi misti",
+        "extra": "Miele e noci"
+      },
+      "cena": {
+        "base": "Spigola alla griglia",
+        "extra": "Insalata di rucola"
+      },
       "date": "2025-05-21"
     }
   ],
-  "lastUpdate": "2025-05-20T23:14:24.366Z"
+  "lastUpdate": "2025-05-20T23:21:53.347Z"
 }
