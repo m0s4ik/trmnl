@@ -2,34 +2,78 @@
   {
     "indexWeek": 0,
     "pranzo": {
-      "base": "Uova",
-      "extra": ""
+      "base": "Frittata di spinaci",
+      "extra": "Insalata mista con pomodorini"
     },
     "cena": {
-      "base": "Carne",
-      "extra": ""
+      "base": "Tagliata di manzo",
+      "extra": "Patate al forno"
     }
   },
   {
     "indexWeek": 1,
     "pranzo": {
-      "base": "riso",
-      "extra": ""
+      "base": "Riso integrale ai funghi",
+      "extra": "Zucchine grigliate"
     },
     "cena": {
-      "base": "pasta",
-      "extra": ""
+      "base": "Spaghetti al pomodoro",
+      "extra": "Mozzarella di bufala"
     }
   },
-    {
+  {
     "indexWeek": 2,
     "pranzo": {
-      "base": "form",
-      "extra": ""
+      "base": "Caprese con burrata",
+      "extra": "Crostini di pane"
     },
     "cena": {
-      "base": "pesce",
-      "extra": ""
+      "base": "Salmone al forno",
+      "extra": "Verdure al vapore"
+    }
+  },
+  {
+    "indexWeek": 3,
+    "pranzo": {
+      "base": "Tagliere di formaggi misti",
+      "extra": "Miele e noci"
+    },
+    "cena": {
+      "base": "Spigola alla griglia",
+      "extra": "Insalata di rucola"
+    }
+  },
+  {
+    "indexWeek": 4,
+    "pranzo": {
+      "base": "Ricotta con pere",
+      "extra": "Prosciutto crudo"
+    },
+    "cena": {
+      "base": "Tonno scottato",
+      "extra": "Caponata di verdure"
+    }
+  },
+  {
+    "indexWeek": 5,
+    "pranzo": {
+      "base": "Gorgonzola e mascarpone",
+      "extra": "Grissini artigianali"
+    },
+    "cena": {
+      "base": "Gamberoni alla catalana",
+      "extra": "Patate lesse"
+    }
+  },
+  {
+    "indexWeek": 6,
+    "pranzo": {
+      "base": "Pecorino stagionato",
+      "extra": "Confettura di fichi"
+    },
+    "cena": {
+      "base": "Orata al cartoccio",
+      "extra": "Carote baby"
     }
   }
 ]
