@@ -28,5 +28,35 @@
     "types": [
       "Public"
     ]
+  },
+   {
+    "date": "2025-05-23",
+    "localName": "Día de las Glorias Navales",
+    "name": "Navy Day",
+    "countryCode": "CL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "pranzo" : "form",
+    "cena" : "pesce",
+    "types": [
+      "Public"
+    ]
+  },
+   {
+    "date": "2025-05-24",
+    "localName": "Día de las Glorias Navales",
+    "name": "Navy Day",
+    "countryCode": "CL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "pranzo" : "form",
+    "cena" : "pesce",
+    "types": [
+      "Public"
+    ]
   }
 ]
