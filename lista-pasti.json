@@ -1,0 +1,29 @@
+{
+  "pasti": [
+    {
+      "indexWeek": 2,
+      "pranzo": {
+        "base": "Caprese con burrata",
+        "extra": "Crostini di pane"
+      },
+      "cena": {
+        "base": "Salmone al forno",
+        "extra": "Verdure al vapore"
+      },
+      "date": "2025-05-20"
+    },
+    {
+      "indexWeek": 3,
+      "pranzo": {
+        "base": "Tagliere di formaggi misti",
+        "extra": "Miele e noci"
+      },
+      "cena": {
+        "base": "Spigola alla griglia",
+        "extra": "Insalata di rucola"
+      },
+      "date": "2025-05-21"
+    }
+  ],
+  "lastUpdate": "2025-05-20T23:52:57.013Z"
+}
