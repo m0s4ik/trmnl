@@ -1,0 +1,43 @@
+name: Update Dates JSON
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Esegue ogni 4 ore
+  workflow_dispatch:        # Permette l'esecuzione manuale
+
+jobs:
+  update-dates:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Generate dates JSON
+        run: |
+          node -e '
+            const fs = require("fs");
+            const today = new Date();
+            const tomorrow = new Date(today);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            
+            const dates = {
+              today: today.toISOString().split("T")[0],
+              tomorrow: tomorrow.toISOString().split("T")[0],
+              lastUpdate: new Date().toISOString()
+            };
+            
+            fs.writeFileSync("dates.json", JSON.stringify(dates, null, 2));
+          '
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add dates.json
+          git commit -m "Update dates.json" || exit 0
+          git push
