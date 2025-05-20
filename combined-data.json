@@ -1,11 +1,6 @@
 {
-  "dates": {
-    "today": "2025-05-20",
-    "tomorrow": "2025-05-21",
-    "lastUpdate": "2025-05-20T23:12:10.740Z"
-  },
-  "pasti": {
-    "today": {
+  "pasti": [
+    {
       "indexWeek": 1,
       "pranzo": {
         "base": "Riso integrale ai funghi",
@@ -14,9 +9,10 @@
       "cena": {
         "base": "Spaghetti al pomodoro",
         "extra": "Mozzarella di bufala"
-      }
+      },
+      "date": "2025-05-20"
     },
-    "tomorrow": {
+    {
       "indexWeek": 2,
       "pranzo": {
         "base": "Caprese con burrata",
@@ -25,7 +21,9 @@
       "cena": {
         "base": "Salmone al forno",
         "extra": "Verdure al vapore"
-      }
+      },
+      "date": "2025-05-21"
     }
-  }
+  ],
+  "lastUpdate": "2025-05-20T23:14:24.366Z"
 }
