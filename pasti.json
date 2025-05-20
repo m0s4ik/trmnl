@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2025-05-21",
+    "localName": "Día de las Glorias Navales",
+    "name": "Navy Day",
+    "countryCode": "CL",
+    "fixed": false,
+    "global": true,
+    "counties": null,
+    "launchYear": null,
+    "types": [
+      "Public"
+    ]
+  }
+]
