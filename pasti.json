@@ -1,62 +1,35 @@
 [
   {
-    "date": "2025-05-21",
-    "localName": "Día de las Glorias Navales",
-    "name": "Navy Day",
-    "countryCode": "CL",
-    "fixed": false,
-    "global": true,
-    "counties": null,
-    "launchYear": null,
-    "pranzo" : "Uova",
-    "cena" : "Carne",
-    "types": [
-      "Public"
-    ]
+    "indexWeek": 0,
+    "pranzo": {
+      "base": "Uova",
+      "extra": ""
+    },
+    "cena": {
+      "base": "Carne",
+      "extra": ""
+    }
   },
-   {
-    "date": "2025-05-22",
-    "localName": "Día de las Glorias Navales",
-    "name": "Navy Day",
-    "countryCode": "CL",
-    "fixed": false,
-    "global": true,
-    "counties": null,
-    "launchYear": null,
-    "pranzo" : "form",
-    "cena" : "pesce",
-    "types": [
-      "Public"
-    ]
+  {
+    "indexWeek": 1,
+    "pranzo": {
+      "base": "riso",
+      "extra": ""
+    },
+    "cena": {
+      "base": "pasta",
+      "extra": ""
+    }
   },
-   {
-    "date": "2025-05-23",
-    "localName": "Día de las Glorias Navales",
-    "name": "Navy Day",
-    "countryCode": "CL",
-    "fixed": false,
-    "global": true,
-    "counties": null,
-    "launchYear": null,
-    "pranzo" : "form",
-    "cena" : "pesce",
-    "types": [
-      "Public"
-    ]
-  },
-   {
-    "date": "2025-05-24",
-    "localName": "Día de las Glorias Navales",
-    "name": "Navy Day",
-    "countryCode": "CL",
-    "fixed": false,
-    "global": true,
-    "counties": null,
-    "launchYear": null,
-    "pranzo" : "form",
-    "cena" : "pesce",
-    "types": [
-      "Public"
-    ]
+    {
+    "indexWeek": 2,
+    "pranzo": {
+      "base": "form",
+      "extra": ""
+    },
+    "cena": {
+      "base": "pesce",
+      "extra": ""
+    }
   }
 ]
