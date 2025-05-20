@@ -1,26 +1,28 @@
-name: Update Dates JSON
+
+name: Update Dates and Meals JSON
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Esegue ogni 4 ore
-  workflow_dispatch:        # Permette l'esecuzione manuale
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-dates:
+  update-json:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          
-      - name: Generate dates JSON
+
+      - name: Generate combined JSON (solo pasti di oggi e domani)
         run: |
           node -e "
             const fs = require('fs');
+
             // Legge il file pasti.json
             let pasti = [];
             try {
@@ -30,37 +32,48 @@ jobs:
               console.log('Warning: pasti.json non trovato o non valido');
               pasti = [];
             }
-            // Calcola gli indici e le date
+
+            // Oggi e domani (come day index 0=lun, 6=dom con JS getDay)
+            // In JS, getDay(): 0=dom, 1=lun, ..., 6=sab. Sotto si usa 0=lun, 6=dom
             function getIndexWeek(jsDay) {
               return jsDay === 0 ? 6 : jsDay - 1;
             }
-            
             const oggi = new Date();
             const oggiIndex = getIndexWeek(oggi.getDay());
-            
+
             const domani = new Date(oggi);
             domani.setDate(oggi.getDate() + 1);
             const domaniIndex = getIndexWeek(domani.getDay());
+
+            const pastiFiltrati = pasti.filter(p =>
+              p.indexWeek === oggiIndex || p.indexWeek === domaniIndex
+            );
+
             // Costruisce l'oggetto risposta
-            const pastiSelezionati = {
-              today: {
-                ...(pasti.find(p => p.indexWeek === oggiIndex) || {}),
-                date: oggi.toISOString().split('T')[0]
-              },
-              tomorrow: {
-                ...(pasti.find(p => p.indexWeek === domaniIndex) || {}),
-                date: domani.toISOString().split('T')[0]
-              },
+            const dates = {
+              today: oggi.toISOString().split('T')[0],
+              tomorrow: domani.toISOString().split('T')[0],
               lastUpdate: new Date().toISOString()
             };
-            fs.writeFileSync('combined-data.json', JSON.stringify(pastiSelezionati, null, 2));
+
+            const pastiSelezionati = {
+              today: pasti.find(p => p.indexWeek === oggiIndex) || null,
+              tomorrow: pasti.find(p => p.indexWeek === domaniIndex) || null
+            };
+
+            const out = {
+              dates: dates,
+              pasti: pastiSelezionati
+            };
+
+            fs.writeFileSync('combined-data.json', JSON.stringify(out, null, 2));
           "
 
-          
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add dates.json
-          git commit -m "Update dates.json" || exit 0
+          git add combined-data.json
+          git commit -m "Update combined-data.json" || exit 0
           git push
+
