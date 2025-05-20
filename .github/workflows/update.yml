@@ -59,7 +59,7 @@ jobs:
               lastUpdate: new Date().toISOString()
             };
 
-            fs.writeFileSync('combined-data.json', JSON.stringify(out, null, 2));
+            fs.writeFileSync('lista-pasti.json', JSON.stringify(out, null, 2));
           "
 
       - name: Commit and push changes
