@@ -1,4 +1,3 @@
-
 name: Update Dates and Meals JSON
 
 on:
@@ -18,7 +17,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Generate combined JSON (solo pasti di oggi e domani)
+      - name: Generate combined JSON
         run: |
           node -e "
             const fs = require('fs');
@@ -33,8 +32,6 @@ jobs:
               pasti = [];
             }
 
-            // Oggi e domani (come day index 0=lun, 6=dom con JS getDay)
-            // In JS, getDay(): 0=dom, 1=lun, ..., 6=sab. Sotto si usa 0=lun, 6=dom
             function getIndexWeek(jsDay) {
               return jsDay === 0 ? 6 : jsDay - 1;
             }
@@ -45,25 +42,21 @@ jobs:
             domani.setDate(oggi.getDate() + 1);
             const domaniIndex = getIndexWeek(domani.getDay());
 
-            const pastiFiltrati = pasti.filter(p =>
-              p.indexWeek === oggiIndex || p.indexWeek === domaniIndex
-            );
+            // Array con i due pasti (oggi e domani), aggiungendo la data a ciascuno
+            const risultati = [];
+            const pOggi = pasti.find(p => p.indexWeek === oggiIndex);
+            if (pOggi) {
+              risultati.push({ ...pOggi, date: oggi.toISOString().split('T')[0] });
+            }
+            const pDomani = pasti.find(p => p.indexWeek === domaniIndex);
+            if (pDomani) {
+              risultati.push({ ...pDomani, date: domani.toISOString().split('T')[0] });
+            }
 
-            // Costruisce l'oggetto risposta
-            const dates = {
-              today: oggi.toISOString().split('T')[0],
-              tomorrow: domani.toISOString().split('T')[0],
-              lastUpdate: new Date().toISOString()
-            };
-
-            const pastiSelezionati = {
-              today: pasti.find(p => p.indexWeek === oggiIndex) || null,
-              tomorrow: pasti.find(p => p.indexWeek === domaniIndex) || null
-            };
-
+            // Oggetto finale
             const out = {
-              dates: dates,
-              pasti: pastiSelezionati
+              pasti: risultati,
+              lastUpdate: new Date().toISOString()
             };
 
             fs.writeFileSync('combined-data.json', JSON.stringify(out, null, 2));
@@ -76,4 +69,3 @@ jobs:
           git add combined-data.json
           git commit -m "Update combined-data.json" || exit 0
           git push
-
