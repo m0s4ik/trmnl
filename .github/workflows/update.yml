@@ -54,10 +54,10 @@ jobs:
             }
 
             // Oggetto finale
-            const out = {
+            const out = [{
               pasti: risultati,
               lastUpdate: new Date().toISOString()
-            };
+            }];
             console.debug('ok scrivo file');
             fs.writeFileSync('lista-pasti.json', JSON.stringify(out, null, 2));
           "
