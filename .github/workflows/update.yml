@@ -23,7 +23,7 @@ jobs:
             const fs = require('fs');
 
             // Imposta il fuso orario italiano
-            process.env.TZ = 'Europe/Rome';
+            // process.env.TZ = 'Europe/Rome';
 
             // Legge il file pasti.json
             let pasti = [];
