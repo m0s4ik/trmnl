@@ -4,11 +4,13 @@
         "day": "dom",
         "pranzo": {
             "base": "Legumi",
-            "extra": ""
+            "extra": "",
+            "icon": "legumi"
         },
         "cena": {
             "base": "Carne",
-            "extra": ""
+            "extra": "",
+            "icon": "carne"
         }
     },
     {
@@ -16,11 +18,13 @@
         "day": "lun",
         "pranzo": {
             "base": "Banane",
-            "extra": "Yougurt greco"
+            "extra": "Yougurt greco",
+            "icon": "banane"
         },
         "cena": {
-            "base": "250 Pollo",
-            "extra": ""
+            "base": "Pollo",
+            "extra": "",
+            "icon": "pollo"
         }
     },
     {
@@ -28,11 +32,13 @@
         "day": "mar",
         "pranzo": {
             "base": "Riso",
-            "extra": ""
+            "extra": "",
+            "icon": "riso"
         },
         "cena": {
             "base": "Uova",
-            "extra": "Molto grandi... GRANDISSIME!"
+            "extra": "Molto grandi... GRANDISSIME!",
+            "icon": "uova"
         }
     },
     {
@@ -40,11 +46,13 @@
         "day": "mer",
         "pranzo": {
             "base": "Formaggio",
-            "extra": ""
+            "extra": "",
+            "icon": "formaggio"
         },
         "cena": {
             "base": "Pesce",
-            "extra": ""
+            "extra": "",
+            "icon": "pesce"
         }
     },
     {
@@ -52,11 +60,13 @@
         "day": "gio",
         "pranzo": {
             "base": "Pasta",
-            "extra": ""
+            "extra": "",
+            "icon": "pasta"
         },
         "cena": {
             "base": "Carne",
-            "extra": ""
+            "extra": "",
+            "icon": "carne"
         }
     },
     {
@@ -64,11 +74,13 @@
         "day": "ven",
         "pranzo": {
             "base": "Pasta",
-            "extra": ""
+            "extra": "",
+            "icon": "pasta"
         },
         "cena": {
             "base": "Pesce",
-            "extra": ""
+            "extra": "",
+            "icon": "pesce"
         }
     },
     {
@@ -76,11 +88,13 @@
         "day": "sab",
         "pranzo": {
             "base": "Formaggio",
-            "extra": ""
+            "extra": "",
+            "icon": "formaggio"
         },
         "cena": {
             "base": "Pesce",
-            "extra": ""
+            "extra": "",
+            "icon": "pesce"
         }
     }
 ]
