@@ -2,7 +2,7 @@ name: Update Dates and Meals JSON
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,6 +21,9 @@ jobs:
         run: |
           node -e "
             const fs = require('fs');
+
+            // Imposta il fuso orario italiano
+            process.env.TZ = 'Europe/Rome';
 
             // Legge il file pasti.json
             let pasti = [];
