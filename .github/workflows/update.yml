@@ -2,7 +2,7 @@ name: Update Dates and Meals JSON
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -55,13 +55,25 @@ jobs:
             if (pDomani) {
               risultati.push({ ...pDomani, date: domani.toISOString().split('T')[0] });
             }
-
+            const italianTime = new Intl.DateTimeFormat('it-IT', {
+              timeZone: 'Europe/Rome',
+              hour12: false,
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit'
+            }).format(new Date());
+            
             // Oggetto finale
             const out = [{
               pasti: risultati,
-              lastUpdate: new Date().toISOString()
+              lastUpdate: italianTime,
+              lastUpdate_UTC: new Date().toISOString()
             }];
-            console.debug('ok scrivo file');
+            
+            //console.debug('ok scrivo file');
             fs.writeFileSync('lista-pasti.json', JSON.stringify(out, null, 2));
           "
 
