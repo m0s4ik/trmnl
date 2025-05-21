@@ -1,29 +1,31 @@
-{
-  "pasti": [
-    {
-      "indexWeek": 2,
-      "pranzo": {
-        "base": "Caprese con burrata",
-        "extra": "Crostini di pane"
+[
+  {
+    "pasti": [
+      {
+        "indexWeek": 3,
+        "pranzo": {
+          "base": "Tagliere di formaggi misti",
+          "extra": "Miele e noci"
+        },
+        "cena": {
+          "base": "Spigola alla griglia",
+          "extra": "Insalata di rucola"
+        },
+        "date": "2025-05-21"
       },
-      "cena": {
-        "base": "Salmone al forno",
-        "extra": "Verdure al vapore"
-      },
-      "date": "2025-05-20"
-    },
-    {
-      "indexWeek": 3,
-      "pranzo": {
-        "base": "Tagliere di formaggi misti",
-        "extra": "Miele e noci"
-      },
-      "cena": {
-        "base": "Spigola alla griglia",
-        "extra": "Insalata di rucola"
-      },
-      "date": "2025-05-21"
-    }
-  ],
-  "lastUpdate": "2025-05-20T23:52:57.013Z"
-}
+      {
+        "indexWeek": 4,
+        "pranzo": {
+          "base": "Ricotta con pere",
+          "extra": "Prosciutto crudo"
+        },
+        "cena": {
+          "base": "Tonno scottato",
+          "extra": "Caponata di verdure"
+        },
+        "date": "2025-05-22"
+      }
+    ],
+    "lastUpdate": "2025-05-21T00:03:08.461Z"
+  }
+]
