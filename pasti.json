@@ -1,86 +1,86 @@
 [
-  {
-    "indexWeek": 0,
+    {
+        "indexWeek": 0,
         "day": "dom",
-    "pranzo": {
-      "base": "Legumi",
-      "extra": ""
+        "pranzo": {
+            "base": "Legumi",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Carne",
+            "extra": ""
+        }
     },
-    "cena": {
-      "base": "Carne",
-      "extra": ""
-    }
-  },
-  {
-    "indexWeek": 1,
+    {
+        "indexWeek": 1,
         "day": "lun",
-    "pranzo": {
-      "base": "Banane",
-      "extra": "Yougurt greco"
+        "pranzo": {
+            "base": "Banane",
+            "extra": "Yougurt greco"
+        },
+        "cena": {
+            "base": "250 Pollo",
+            "extra": ""
+        }
     },
-    "cena": {
-      "base": "250 Pollo",
-      "extra": ""
-    }
-  },
-  {
-    "indexWeek": 2,
+    {
+        "indexWeek": 2,
         "day": "mar",
-    "pranzo": {
-      "base": "Riso",
-      "extra": ""
+        "pranzo": {
+            "base": "Riso",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Uova",
+            "extra": "Molto grandi... GRANDISSIME!"
+        }
     },
-    "cena": {
-      "base": "Uova",
-      "extra": "Molto grandi... GRANDISSIME!"
-    }
-  },
-  {
-    "indexWeek": 3,
-    "day": "mer",
-    "pranzo": {
-      "base": "Formaggio",
-      "extra": ""
+    {
+        "indexWeek": 3,
+        "day": "mer",
+        "pranzo": {
+            "base": "Formaggio",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Pesce",
+            "extra": ""
+        }
     },
-    "cena": {
-      "base": "Pesce",
-      "extra": ""
-    }
-  },
-  {
-    "indexWeek": 4,
-    "day": "gio",
-    "pranzo": {
-      "base": "Pasta",
-      "extra": ""
+    {
+        "indexWeek": 4,
+        "day": "gio",
+        "pranzo": {
+            "base": "Pasta",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Carne",
+            "extra": ""
+        }
     },
-    "cena": {
-      "base": "Carne",
-      "extra": ""
-    }
-  },
-  {
-    "indexWeek": 5,
+    {
+        "indexWeek": 5,
         "day": "ven",
-    "pranzo": {
-      "base": "Pasta",
-      "extra": ""
+        "pranzo": {
+            "base": "Pasta",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Pesce",
+            "extra": ""
+        }
     },
-    "cena": {
-      "base": "Pesce",
-      "extra": ""
-    }
-  },
-  {
-    "indexWeek": 6,
+    {
+        "indexWeek": 6,
         "day": "sab",
-    "pranzo": {
-      "base": "Formaggio",
-      "extra": ""
-    },
-    "cena": {
-      "base": "Pesce",
-        "extra": ""
+        "pranzo": {
+            "base": "Formaggio",
+            "extra": ""
+        },
+        "cena": {
+            "base": "Pesce",
+            "extra": ""
+        }
     }
-  }
 ]
