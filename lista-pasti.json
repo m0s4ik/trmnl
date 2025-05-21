@@ -3,29 +3,31 @@
     "pasti": [
       {
         "indexWeek": 3,
+        "day": "mer",
         "pranzo": {
-          "base": "Tagliere di formaggi misti",
-          "extra": "Miele e noci"
+          "base": "Formaggio",
+          "extra": ""
         },
         "cena": {
-          "base": "Spigola alla griglia",
-          "extra": "Insalata di rucola"
+          "base": "Pesce",
+          "extra": ""
         },
         "date": "2025-05-21"
       },
       {
         "indexWeek": 4,
+        "day": "gio",
         "pranzo": {
-          "base": "Ricotta con pere",
-          "extra": "Prosciutto crudo"
+          "base": "Pasta",
+          "extra": ""
         },
         "cena": {
-          "base": "Tonno scottato",
-          "extra": "Caponata di verdure"
+          "base": "Carne",
+          "extra": ""
         },
         "date": "2025-05-22"
       }
     ],
-    "lastUpdate": "2025-05-21T00:03:08.461Z"
+    "lastUpdate": "2025-05-21T00:15:32.608Z"
   }
 ]
