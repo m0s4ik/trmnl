@@ -1,35 +1,38 @@
 [
   {
     "indexWeek": 0,
+        "day": "dom",
     "pranzo": {
-      "base": "Frittata di spinaci",
-      "extra": "Insalata mista con pomodorini"
+      "base": "Legumi",
+      "extra": ""
     },
     "cena": {
-      "base": "Tagliata di manzo",
-      "extra": "Patate al forno"
+      "base": "Carne",
+      "extra": ""
     }
   },
   {
     "indexWeek": 1,
+        "day": "lun",
     "pranzo": {
-      "base": "Riso integrale ai funghi",
-      "extra": "Zucchine grigliate"
+      "base": "Banane",
+      "extra": "Yougurt greco"
     },
     "cena": {
-      "base": "Spaghetti al pomodoro",
-      "extra": "Mozzarella di bufala"
+      "base": "250 Pollo",
+      "extra": ""
     }
   },
   {
     "indexWeek": 2,
+        "day": "mar",
     "pranzo": {
-      "base": "Caprese con burrata",
-      "extra": "Crostini di pane"
+      "base": "Riso",
+      "extra": ""
     },
     "cena": {
-      "base": "Salmone al forno",
-      "extra": "Verdure al vapore"
+      "base": "Uova",
+      "extra": "Molto grandi... GRANDISSIME!"
     }
   },
   {
@@ -58,24 +61,26 @@
   },
   {
     "indexWeek": 5,
+        "day": "ven",
     "pranzo": {
-      "base": "Gorgonzola e mascarpone",
-      "extra": "Grissini artigianali"
+      "base": "Pasta",
+      "extra": ""
     },
     "cena": {
-      "base": "Gamberoni alla catalana",
-      "extra": "Patate lesse"
+      "base": "Pesce",
+      "extra": ""
     }
   },
   {
     "indexWeek": 6,
+        "day": "sab",
     "pranzo": {
-      "base": "Pecorino stagionato",
-      "extra": "Confettura di fichi"
+      "base": "Formaggio",
+      "extra": ""
     },
     "cena": {
-      "base": "Orata al cartoccio",
-      "extra": "Carote baby"
+      "base": "Pesce",
+        "extra": ""
     }
   }
 ]
