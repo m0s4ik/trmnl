@@ -22,9 +22,9 @@
             "icon": "banane"
         },
         "cena": {
-            "base": "Pollo",
-            "extra": "",
-            "icon": "pollo"
+            "base": "Patate",
+            "extra": "400g",
+            "icon": "patate"
         }
     },
     {
@@ -36,9 +36,9 @@
             "icon": "riso"
         },
         "cena": {
-            "base": "Uova",
-            "extra": "Molto grandi... GRANDISSIME!",
-            "icon": "uova"
+            "base": "Carne",
+            "extra": "",
+            "icon": "carne"
         }
     },
     {
@@ -73,13 +73,13 @@
         "indexWeek": 5,
         "day": "ven",
         "pranzo": {
-            "base": "Pasta",
-            "extra": "",
-            "icon": "pasta"
+            "base": "Uova",
+            "extra": "Pane",
+            "icon": "uova"
         },
         "cena": {
             "base": "Pesce",
-            "extra": "",
+            "extra": "Pane",
             "icon": "pesce"
         }
     },
@@ -87,14 +87,14 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
+            "base": "Legumi",
+            "extra": "",
+            "icon": "legumi"
+        },
+        "cena": {
             "base": "Formaggio",
             "extra": "",
             "icon": "formaggio"
-        },
-        "cena": {
-            "base": "Pesce",
-            "extra": "",
-            "icon": "pesce"
         }
     }
 ]
