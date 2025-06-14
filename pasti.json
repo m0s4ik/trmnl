@@ -3,14 +3,14 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
-            "base": "Legumi",
+            "base": "Pollo",
             "extra": "",
-            "icon": "legumi"
+            "icon": "pollo"
         },
         "cena": {
-            "base": "Carne",
+            "base": "Libero",
             "extra": "",
-            "icon": "carne"
+            "icon": "pizza"
         }
     },
     {
