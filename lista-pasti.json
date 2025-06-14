@@ -20,19 +20,19 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
-          "base": "Legumi",
+          "base": "Pollo",
           "extra": "",
-          "icon": "legumi"
+          "icon": "pollo"
         },
         "cena": {
-          "base": "Carne",
+          "base": "Pasto Libero",
           "extra": "",
-          "icon": "carne"
+          "icon": "pizza"
         },
         "date": "2025-06-15"
       }
     ],
-    "lastUpdate": "14/06/2025, 18:13:22",
-    "lastUpdate_UTC": "2025-06-14T16:13:22.002Z"
+    "lastUpdate": "14/06/2025, 22:12:20",
+    "lastUpdate_UTC": "2025-06-14T20:12:20.485Z"
   }
 ]
