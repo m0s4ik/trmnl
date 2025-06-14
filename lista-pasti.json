@@ -2,21 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 5,
-        "day": "ven",
-        "pranzo": {
-          "base": "Uova",
-          "extra": "Pane",
-          "icon": "uova"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "Pane",
-          "icon": "pesce"
-        },
-        "date": "2025-06-13"
-      },
-      {
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
@@ -30,9 +15,24 @@
           "icon": "formaggio"
         },
         "date": "2025-06-14"
+      },
+      {
+        "indexWeek": 0,
+        "day": "dom",
+        "pranzo": {
+          "base": "Legumi",
+          "extra": "",
+          "icon": "legumi"
+        },
+        "cena": {
+          "base": "Carne",
+          "extra": "",
+          "icon": "carne"
+        },
+        "date": "2025-06-15"
       }
     ],
-    "lastUpdate": "13/06/2025, 22:13:35",
-    "lastUpdate_UTC": "2025-06-13T20:13:35.090Z"
+    "lastUpdate": "14/06/2025, 02:58:48",
+    "lastUpdate_UTC": "2025-06-14T00:58:48.305Z"
   }
 ]
