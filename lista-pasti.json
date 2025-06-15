@@ -2,21 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 6,
-        "day": "sab",
-        "pranzo": {
-          "base": "Legumi",
-          "extra": "",
-          "icon": "legumi"
-        },
-        "cena": {
-          "base": "Formaggio",
-          "extra": "",
-          "icon": "formaggio"
-        },
-        "date": "2025-06-14"
-      },
-      {
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
@@ -30,9 +15,24 @@
           "icon": "pizza"
         },
         "date": "2025-06-15"
+      },
+      {
+        "indexWeek": 1,
+        "day": "lun",
+        "pranzo": {
+          "base": "Banane",
+          "extra": "Yougurt greco",
+          "icon": "banane"
+        },
+        "cena": {
+          "base": "Patate",
+          "extra": "400g",
+          "icon": "patate"
+        },
+        "date": "2025-06-16"
       }
     ],
-    "lastUpdate": "14/06/2025, 22:12:20",
-    "lastUpdate_UTC": "2025-06-14T20:12:20.485Z"
+    "lastUpdate": "15/06/2025, 03:07:30",
+    "lastUpdate_UTC": "2025-06-15T01:07:30.460Z"
   }
 ]
