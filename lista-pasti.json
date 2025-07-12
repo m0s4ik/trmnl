@@ -2,21 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 5,
-        "day": "ven",
-        "pranzo": {
-          "base": "Uova",
-          "extra": "Pane",
-          "icon": "uova"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "Pane",
-          "icon": "pesce"
-        },
-        "date": "2025-07-11"
-      },
-      {
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
@@ -30,9 +15,24 @@
           "icon": "formaggio"
         },
         "date": "2025-07-12"
+      },
+      {
+        "indexWeek": 0,
+        "day": "dom",
+        "pranzo": {
+          "base": "Pollo",
+          "extra": "",
+          "icon": "pollo"
+        },
+        "cena": {
+          "base": "Pasto Libero",
+          "extra": "",
+          "icon": "pizza"
+        },
+        "date": "2025-07-13"
       }
     ],
-    "lastUpdate": "11/07/2025, 22:14:01",
-    "lastUpdate_UTC": "2025-07-11T20:14:01.555Z"
+    "lastUpdate": "12/07/2025, 03:05:05",
+    "lastUpdate_UTC": "2025-07-12T01:05:05.746Z"
   }
 ]
