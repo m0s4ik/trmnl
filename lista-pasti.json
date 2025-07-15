@@ -6,7 +6,7 @@
         "day": "mar",
         "pranzo": {
           "base": "Riso",
-          "extra": "",
+          "extra": "Prosciutto",
           "icon": "riso"
         },
         "cena": {
@@ -32,7 +32,7 @@
         "date": "2025-07-16"
       }
     ],
-    "lastUpdate": "15/07/2025, 18:16:32",
-    "lastUpdate_UTC": "2025-07-15T16:16:32.878Z"
+    "lastUpdate": "15/07/2025, 22:14:34",
+    "lastUpdate_UTC": "2025-07-15T20:14:34.653Z"
   }
 ]
