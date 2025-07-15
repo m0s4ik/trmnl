@@ -18,12 +18,12 @@
         "day": "lun",
         "pranzo": {
             "base": "Banane",
-            "extra": "Yougurt greco",
+            "extra": "Legumi",
             "icon": "banane"
         },
         "cena": {
             "base": "Patate",
-            "extra": "400g",
+            "extra": "Uova",
             "icon": "patate"
         }
     },
@@ -32,7 +32,7 @@
         "day": "mar",
         "pranzo": {
             "base": "Riso",
-            "extra": "",
+            "extra": "Prosciutto",
             "icon": "riso"
         },
         "cena": {
@@ -60,7 +60,7 @@
         "day": "gio",
         "pranzo": {
             "base": "Pasta",
-            "extra": "",
+            "extra": "Legumi",
             "icon": "pasta"
         },
         "cena": {
