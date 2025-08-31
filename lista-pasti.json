@@ -5,14 +5,14 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
+          "base": "Riso",
+          "extra": "Prosciutto",
+          "icon": "riso"
+        },
+        "cena": {
           "base": "Pollo",
           "extra": "",
           "icon": "pollo"
-        },
-        "cena": {
-          "base": "Pasto Libero",
-          "extra": "",
-          "icon": "pizza"
         },
         "date": "2025-08-31"
       },
@@ -25,14 +25,14 @@
           "icon": "banane"
         },
         "cena": {
-          "base": "Patate",
-          "extra": "Uova",
-          "icon": "patate"
+          "base": "Pesce",
+          "extra": "",
+          "icon": "pesce"
         },
         "date": "2025-09-01"
       }
     ],
-    "lastUpdate": "31/08/2025, 18:12:40",
-    "lastUpdate_UTC": "2025-08-31T16:12:40.051Z"
+    "lastUpdate": "31/08/2025, 22:12:19",
+    "lastUpdate_UTC": "2025-08-31T20:12:19.298Z"
   }
 ]
