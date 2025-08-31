@@ -3,14 +3,14 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
+            "base": "Riso",
+            "extra": "Prosciutto",
+            "icon": "riso"
+        },
+        "cena": {
             "base": "Pollo",
             "extra": "",
             "icon": "pollo"
-        },
-        "cena": {
-            "base": "Pasto Libero",
-            "extra": "",
-            "icon": "pizza"
         }
     },
     {
@@ -22,9 +22,9 @@
             "icon": "banane"
         },
         "cena": {
-            "base": "Patate",
-            "extra": "Uova",
-            "icon": "patate"
+            "base": "Pesce",
+            "extra": "",
+            "icon": "pesce"
         }
     },
     {
@@ -36,18 +36,18 @@
             "icon": "riso"
         },
         "cena": {
-            "base": "Carne",
+            "base": "Formaggio",
             "extra": "",
-            "icon": "carne"
+            "icon": "formaggio"
         }
     },
     {
         "indexWeek": 3,
         "day": "mer",
         "pranzo": {
-            "base": "Formaggio",
+            "base": "Uova",
             "extra": "",
-            "icon": "formaggio"
+            "icon": "uova"
         },
         "cena": {
             "base": "Pesce",
@@ -73,13 +73,13 @@
         "indexWeek": 5,
         "day": "ven",
         "pranzo": {
-            "base": "Uova",
-            "extra": "Pane",
-            "icon": "uova"
+            "base": "Formaggio",
+            "extra": "",
+            "icon": "formaggio"
         },
         "cena": {
             "base": "Pesce",
-            "extra": "Pane",
+            "extra": "",
             "icon": "pesce"
         }
     },
@@ -87,14 +87,14 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Legumi",
-            "extra": "",
-            "icon": "legumi"
+            "base": "Uova",
+            "extra": "Pane",
+            "icon": "uova"
         },
         "cena": {
-            "base": "Formaggio",
+            "base": "Pesce",
             "extra": "",
-            "icon": "formaggio"
+            "icon": "pesce"
         }
     }
 ]
