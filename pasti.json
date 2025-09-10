@@ -3,14 +3,14 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
-            "base": "Riso",
+            "base": "Formaggio",
             "extra": "Prosciutto",
-            "icon": "riso"
+            "icon": "formaggio"
         },
         "cena": {
-            "base": "Pollo",
+            "base": "Pesce",
             "extra": "",
-            "icon": "pollo"
+            "icon": "pesce"
         }
     },
     {
@@ -22,9 +22,9 @@
             "icon": "banane"
         },
         "cena": {
-            "base": "Pesce",
+            "base": "Carne",
             "extra": "",
-            "icon": "pesce"
+            "icon": "carne"
         }
     },
     {
@@ -73,9 +73,9 @@
         "indexWeek": 5,
         "day": "ven",
         "pranzo": {
-            "base": "Formaggio",
+            "base": "Legumi",
             "extra": "",
-            "icon": "formaggio"
+            "icon": "legumi"
         },
         "cena": {
             "base": "Pesce",
@@ -87,14 +87,14 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Uova",
+            "base": "Pasta",
             "extra": "Pane",
-            "icon": "uova"
+            "icon": "pasta"
         },
         "cena": {
-            "base": "Pesce",
+            "base": "Carne",
             "extra": "",
-            "icon": "pesce"
+            "icon": "carne"
         }
     }
 ]
