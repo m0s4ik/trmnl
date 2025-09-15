@@ -4,12 +4,12 @@
         "day": "dom",
         "pranzo": {
             "base": "Formaggio",
-            "extra": "Prosciutto",
+            "extra": "",
             "icon": "formaggio"
         },
         "cena": {
             "base": "Pesce",
-            "extra": "",
+            "extra": "Legumi",
             "icon": "pesce"
         }
     },
@@ -60,7 +60,7 @@
         "day": "gio",
         "pranzo": {
             "base": "Pasta",
-            "extra": "Legumi",
+            "extra": "Prosciutto",
             "icon": "pasta"
         },
         "cena": {
@@ -88,7 +88,7 @@
         "day": "sab",
         "pranzo": {
             "base": "Pasta",
-            "extra": "Pane",
+            "extra": "Uova",
             "icon": "pasta"
         },
         "cena": {
