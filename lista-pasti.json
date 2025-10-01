@@ -2,21 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 2,
-        "day": "mar",
-        "pranzo": {
-          "base": "Riso",
-          "extra": "Prosciutto",
-          "icon": "riso"
-        },
-        "cena": {
-          "base": "Formaggio",
-          "extra": "",
-          "icon": "formaggio"
-        },
-        "date": "2025-09-30"
-      },
-      {
         "indexWeek": 3,
         "day": "mer",
         "pranzo": {
@@ -30,9 +15,24 @@
           "icon": "pesce"
         },
         "date": "2025-10-01"
+      },
+      {
+        "indexWeek": 4,
+        "day": "gio",
+        "pranzo": {
+          "base": "Pasta",
+          "extra": "Prosciutto",
+          "icon": "pasta"
+        },
+        "cena": {
+          "base": "Carne",
+          "extra": "",
+          "icon": "carne"
+        },
+        "date": "2025-10-02"
       }
     ],
-    "lastUpdate": "30/09/2025, 22:13:08",
-    "lastUpdate_UTC": "2025-09-30T20:13:08.476Z"
+    "lastUpdate": "01/10/2025, 03:02:26",
+    "lastUpdate_UTC": "2025-10-01T01:02:26.463Z"
   }
 ]
