@@ -14,6 +14,7 @@
           "extra": "",
           "icon": "carne"
         },
+        "acquario": false,
         "date": "2025-10-04"
       },
       {
@@ -29,10 +30,11 @@
           "extra": "Legumi",
           "icon": "pesce"
         },
+        "acquario": true,
         "date": "2025-10-05"
       }
     ],
-    "lastUpdate": "04/10/2025, 18:12:32",
-    "lastUpdate_UTC": "2025-10-04T16:12:32.667Z"
+    "lastUpdate": "04/10/2025, 20:35:24",
+    "lastUpdate_UTC": "2025-10-04T18:35:24.325Z"
   }
 ]
