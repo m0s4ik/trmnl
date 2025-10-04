@@ -11,7 +11,8 @@
             "base": "Pesce",
             "extra": "Legumi",
             "icon": "pesce"
-        }
+        },
+        "acquario": true
     },
     {
         "indexWeek": 1,
@@ -25,7 +26,8 @@
             "base": "Carne",
             "extra": "",
             "icon": "carne"
-        }
+        },
+        "acquario": false
     },
     {
         "indexWeek": 2,
@@ -39,7 +41,8 @@
             "base": "Formaggio",
             "extra": "",
             "icon": "formaggio"
-        }
+        },
+        "acquario": true
     },
     {
         "indexWeek": 3,
@@ -53,7 +56,8 @@
             "base": "Pesce",
             "extra": "",
             "icon": "pesce"
-        }
+        },
+        "acquario": false
     },
     {
         "indexWeek": 4,
@@ -67,7 +71,8 @@
             "base": "Carne",
             "extra": "",
             "icon": "carne"
-        }
+        },
+        "acquario": true
     },
     {
         "indexWeek": 5,
@@ -81,7 +86,8 @@
             "base": "Pesce",
             "extra": "",
             "icon": "pesce"
-        }
+        },
+        "acquario": false
     },
     {
         "indexWeek": 6,
@@ -95,6 +101,7 @@
             "base": "Carne",
             "extra": "",
             "icon": "carne"
-        }
+        },
+        "acquario": false
     }
 ]
