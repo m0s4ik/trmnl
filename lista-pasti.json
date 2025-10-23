@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 3,
-        "day": "mer",
-        "pranzo": {
-          "base": "Uova",
-          "extra": "",
-          "icon": "uova"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "",
-          "icon": "pesce"
-        },
-        "acquario": false,
-        "date": "2025-10-22"
-      },
-      {
         "indexWeek": 4,
         "day": "gio",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": true,
         "date": "2025-10-23"
+      },
+      {
+        "indexWeek": 5,
+        "day": "ven",
+        "pranzo": {
+          "base": "Legumi",
+          "extra": "",
+          "icon": "legumi"
+        },
+        "cena": {
+          "base": "Pesce",
+          "extra": "",
+          "icon": "pesce"
+        },
+        "acquario": false,
+        "date": "2025-10-24"
       }
     ],
-    "lastUpdate": "22/10/2025, 22:14:40",
-    "lastUpdate_UTC": "2025-10-22T20:14:40.014Z"
+    "lastUpdate": "23/10/2025, 02:57:41",
+    "lastUpdate_UTC": "2025-10-23T00:57:41.251Z"
   }
 ]
