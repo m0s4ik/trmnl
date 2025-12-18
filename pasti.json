@@ -3,13 +3,13 @@
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
-            "base": "Formaggio",
+            "base": "Pane + Uova",
             "extra": "",
-            "icon": "formaggio"
+            "icon": "uova"
         },
         "cena": {
             "base": "Pesce",
-            "extra": "Legumi",
+            "extra": "",
             "icon": "pesce"
         },
         "acquario": true
@@ -19,7 +19,7 @@
         "day": "lun",
         "pranzo": {
             "base": "Banane",
-            "extra": "Legumi",
+            "extra": "",
             "icon": "banane"
         },
         "cena": {
@@ -34,38 +34,8 @@
         "day": "mar",
         "pranzo": {
             "base": "Riso",
-            "extra": "Prosciutto",
+            "extra": "",
             "icon": "riso"
-        },
-        "cena": {
-            "base": "Formaggio",
-            "extra": "",
-            "icon": "formaggio"
-        },
-        "acquario": true
-    },
-    {
-        "indexWeek": 3,
-        "day": "mer",
-        "pranzo": {
-            "base": "Uova",
-            "extra": "",
-            "icon": "uova"
-        },
-        "cena": {
-            "base": "Pesce",
-            "extra": "",
-            "icon": "pesce"
-        },
-        "acquario": false
-    },
-    {
-        "indexWeek": 4,
-        "day": "gio",
-        "pranzo": {
-            "base": "Pasta",
-            "extra": "Prosciutto",
-            "icon": "pasta"
         },
         "cena": {
             "base": "Carne",
@@ -75,17 +45,47 @@
         "acquario": true
     },
     {
+        "indexWeek": 3,
+        "day": "mer",
+        "pranzo": {
+            "base": "Pane + Pesce",
+            "extra": "",
+            "icon": "pesce"
+        },
+        "cena": {
+            "base": "Formaggio",
+            "extra": "",
+            "icon": "formaggio"
+        },
+        "acquario": false
+    },
+    {
+        "indexWeek": 4,
+        "day": "gio",
+        "pranzo": {
+            "base": "Pasta",
+            "extra": "",
+            "icon": "pasta"
+        },
+        "cena": {
+            "base": "Formaggio",
+            "extra": "",
+            "icon": "formaggio"
+        },
+        "acquario": true
+    },
+    {
         "indexWeek": 5,
         "day": "ven",
         "pranzo": {
-            "base": "Legumi",
+            "base": "Uova",
             "extra": "",
-            "icon": "legumi"
+            "icon": "uova"
         },
         "cena": {
-            "base": "Pesce",
+            "base": "Patate",
             "extra": "",
-            "icon": "pesce"
+            "icon": "patate"
         },
         "acquario": false
     },
@@ -93,9 +93,9 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Pasta",
-            "extra": "Uova",
-            "icon": "pasta"
+            "base": "Legumi",
+            "extra": "",
+            "icon": "legumi"
         },
         "cena": {
             "base": "Carne",
