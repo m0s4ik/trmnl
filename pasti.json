@@ -93,9 +93,9 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Legumi",
+            "base": "Frutta",
             "extra": "",
-            "icon": "legumi"
+            "icon": "banane"
         },
         "cena": {
             "base": "Carne",
