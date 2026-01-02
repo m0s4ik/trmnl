@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 4,
-        "day": "gio",
-        "pranzo": {
-          "base": "Pasta",
-          "extra": "",
-          "icon": "pasta"
-        },
-        "cena": {
-          "base": "Formaggio",
-          "extra": "",
-          "icon": "formaggio"
-        },
-        "acquario": true,
-        "date": "2026-01-01"
-      },
-      {
         "indexWeek": 5,
         "day": "ven",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": false,
         "date": "2026-01-02"
+      },
+      {
+        "indexWeek": 6,
+        "day": "sab",
+        "pranzo": {
+          "base": "Frutta",
+          "extra": "",
+          "icon": "banane"
+        },
+        "cena": {
+          "base": "Carne",
+          "extra": "",
+          "icon": "carne"
+        },
+        "acquario": false,
+        "date": "2026-01-03"
       }
     ],
-    "lastUpdate": "01/01/2026, 21:15:04",
-    "lastUpdate_UTC": "2026-01-01T20:15:04.162Z"
+    "lastUpdate": "02/01/2026, 02:05:04",
+    "lastUpdate_UTC": "2026-01-02T01:05:04.407Z"
   }
 ]
