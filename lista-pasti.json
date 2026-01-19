@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 0,
-        "day": "dom",
-        "pranzo": {
-          "base": "Pane + Uova",
-          "extra": "",
-          "icon": "uova"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "",
-          "icon": "pesce"
-        },
-        "acquario": true,
-        "date": "2026-01-18"
-      },
-      {
         "indexWeek": 1,
         "day": "lun",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": false,
         "date": "2026-01-19"
+      },
+      {
+        "indexWeek": 2,
+        "day": "mar",
+        "pranzo": {
+          "base": "Riso",
+          "extra": "",
+          "icon": "riso"
+        },
+        "cena": {
+          "base": "Carne",
+          "extra": "",
+          "icon": "carne"
+        },
+        "acquario": true,
+        "date": "2026-01-20"
       }
     ],
-    "lastUpdate": "18/01/2026, 21:14:10",
-    "lastUpdate_UTC": "2026-01-18T20:14:10.087Z"
+    "lastUpdate": "19/01/2026, 02:09:49",
+    "lastUpdate_UTC": "2026-01-19T01:09:49.874Z"
   }
 ]
