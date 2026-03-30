@@ -5,14 +5,14 @@
         "indexWeek": 1,
         "day": "lun",
         "pranzo": {
-          "base": "Banane",
+          "base": "Uova",
           "extra": "",
-          "icon": "banane"
+          "icon": "uova"
         },
         "cena": {
-          "base": "Carne",
+          "base": "Pesce",
           "extra": "",
-          "icon": "carne"
+          "icon": "pesce"
         },
         "acquario": false,
         "date": "2026-03-30"
@@ -26,15 +26,15 @@
           "icon": "riso"
         },
         "cena": {
-          "base": "Carne",
+          "base": "Formaggio",
           "extra": "",
-          "icon": "carne"
+          "icon": "formaggio"
         },
         "acquario": true,
         "date": "2026-03-31"
       }
     ],
-    "lastUpdate": "30/03/2026, 18:47:52",
-    "lastUpdate_UTC": "2026-03-30T16:47:52.770Z"
+    "lastUpdate": "30/03/2026, 22:36:32",
+    "lastUpdate_UTC": "2026-03-30T20:36:32.071Z"
   }
 ]
