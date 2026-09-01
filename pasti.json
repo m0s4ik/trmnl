@@ -93,7 +93,7 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Banane",
+            "base": "Frutta",
             "extra": "",
             "icon": "banane"
         },
