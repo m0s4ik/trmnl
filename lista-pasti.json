@@ -10,9 +10,9 @@
           "icon": "riso"
         },
         "cena": {
-          "base": "Formaggio",
+          "base": "Pollo",
           "extra": "",
-          "icon": "formaggio"
+          "icon": "pollo"
         },
         "acquario": true,
         "date": "2026-09-01"
@@ -21,20 +21,20 @@
         "indexWeek": 3,
         "day": "mer",
         "pranzo": {
-          "base": "Pesce",
+          "base": "Pasta",
           "extra": "",
           "icon": "pesce"
         },
         "cena": {
-          "base": "Formaggio",
+          "base": "Pesce",
           "extra": "",
-          "icon": "formaggio"
+          "icon": "pesce"
         },
         "acquario": false,
         "date": "2026-09-02"
       }
     ],
-    "lastUpdate": "01/09/2026, 17:48:06",
-    "lastUpdate_UTC": "2026-09-01T15:48:06.531Z"
+    "lastUpdate": "01/09/2026, 20:47:31",
+    "lastUpdate_UTC": "2026-09-01T18:47:31.122Z"
   }
 ]
