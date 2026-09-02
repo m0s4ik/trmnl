@@ -50,7 +50,7 @@
         "pranzo": {
             "base": "Pasta",
             "extra": "",
-            "icon": "pesce"
+            "icon": "pasta"
         },
         "cena": {
             "base": "Pesce",
