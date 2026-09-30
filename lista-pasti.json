@@ -5,9 +5,9 @@
         "indexWeek": 3,
         "day": "mer",
         "pranzo": {
-          "base": "Pasta",
-          "extra": "",
-          "icon": "pasta"
+          "base": "Formaggio",
+          "extra": "Annamaria: legumi",
+          "icon": "formaggio"
         },
         "cena": {
           "base": "Pesce",
@@ -34,7 +34,7 @@
         "date": "2026-10-01"
       }
     ],
-    "lastUpdate": "30/09/2026, 19:17:49",
-    "lastUpdate_UTC": "2026-09-30T17:17:49.371Z"
+    "lastUpdate": "01/10/2026, 01:20:21",
+    "lastUpdate_UTC": "2026-09-30T23:20:21.253Z"
   }
 ]
