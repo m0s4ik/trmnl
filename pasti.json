@@ -4,7 +4,7 @@
         "day": "dom",
         "pranzo": {
             "base": "Uova",
-            "extra": "pane",
+            "extra": "Annamaria: legumi",
             "icon": "uova"
         },
         "cena": {
@@ -38,9 +38,9 @@
             "icon": "riso"
         },
         "cena": {
-            "base": "Pollo",
-            "extra": "",
-            "icon": "pollo"
+            "base": "Pesce",
+            "extra": "Annamaria: formaggio",
+            "icon": "pesce"
         },
         "acquario": true
     },
@@ -48,9 +48,9 @@
         "indexWeek": 3,
         "day": "mer",
         "pranzo": {
-            "base": "Pasta",
-            "extra": "",
-            "icon": "pasta"
+            "base": "Formaggio",
+            "extra": "Annamaria: legumi",
+            "icon": "formaggio"
         },
         "cena": {
             "base": "Pesce",
@@ -93,9 +93,9 @@
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
-            "base": "Frutta",
-            "extra": "",
-            "icon": "banane"
+            "base": "Legumi",
+            "extra": "Annamaria: riso",
+            "icon": "legumi"
         },
         "cena": {
             "base": "Carne",
