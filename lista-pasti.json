@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 3,
-        "day": "mer",
-        "pranzo": {
-          "base": "Formaggio",
-          "extra": "Annamaria: legumi",
-          "icon": "formaggio"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "",
-          "icon": "pesce"
-        },
-        "acquario": false,
-        "date": "2026-11-04"
-      },
-      {
         "indexWeek": 4,
         "day": "gio",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": true,
         "date": "2026-11-05"
+      },
+      {
+        "indexWeek": 5,
+        "day": "ven",
+        "pranzo": {
+          "base": "Uova",
+          "extra": "pane",
+          "icon": "uova"
+        },
+        "cena": {
+          "base": "Pesce",
+          "extra": "",
+          "icon": "pesce"
+        },
+        "acquario": false,
+        "date": "2026-11-06"
       }
     ],
-    "lastUpdate": "04/11/2026, 22:37:52",
-    "lastUpdate_UTC": "2026-11-04T21:37:52.997Z"
+    "lastUpdate": "05/11/2026, 05:24:45",
+    "lastUpdate_UTC": "2026-11-05T04:24:45.709Z"
   }
 ]
