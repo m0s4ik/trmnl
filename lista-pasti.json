@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 6,
-        "day": "sab",
-        "pranzo": {
-          "base": "Legumi",
-          "extra": "Annamaria: riso",
-          "icon": "legumi"
-        },
-        "cena": {
-          "base": "Carne",
-          "extra": "",
-          "icon": "carne"
-        },
-        "acquario": false,
-        "date": "2026-11-07"
-      },
-      {
         "indexWeek": 0,
         "day": "dom",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": true,
         "date": "2026-11-08"
+      },
+      {
+        "indexWeek": 1,
+        "day": "lun",
+        "pranzo": {
+          "base": "Banane",
+          "extra": "",
+          "icon": "banane"
+        },
+        "cena": {
+          "base": "Carne",
+          "extra": "",
+          "icon": "carne"
+        },
+        "acquario": false,
+        "date": "2026-11-09"
       }
     ],
-    "lastUpdate": "08/11/2026, 00:16:07",
-    "lastUpdate_UTC": "2026-11-07T23:16:07.795Z"
+    "lastUpdate": "08/11/2026, 04:33:49",
+    "lastUpdate_UTC": "2026-11-08T03:33:49.213Z"
   }
 ]
