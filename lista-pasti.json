@@ -2,22 +2,6 @@
   {
     "pasti": [
       {
-        "indexWeek": 5,
-        "day": "ven",
-        "pranzo": {
-          "base": "Uova",
-          "extra": "pane",
-          "icon": "uova"
-        },
-        "cena": {
-          "base": "Pesce",
-          "extra": "",
-          "icon": "pesce"
-        },
-        "acquario": false,
-        "date": "2026-11-27"
-      },
-      {
         "indexWeek": 6,
         "day": "sab",
         "pranzo": {
@@ -32,9 +16,25 @@
         },
         "acquario": false,
         "date": "2026-11-28"
+      },
+      {
+        "indexWeek": 0,
+        "day": "dom",
+        "pranzo": {
+          "base": "Uova",
+          "extra": "Annamaria: legumi",
+          "icon": "uova"
+        },
+        "cena": {
+          "base": "Pesce",
+          "extra": "",
+          "icon": "pesce"
+        },
+        "acquario": true,
+        "date": "2026-11-29"
       }
     ],
-    "lastUpdate": "28/11/2026, 00:50:23",
-    "lastUpdate_UTC": "2026-11-27T23:50:23.624Z"
+    "lastUpdate": "28/11/2026, 06:38:39",
+    "lastUpdate_UTC": "2026-11-28T05:38:39.012Z"
   }
 ]
